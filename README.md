@@ -15,7 +15,7 @@ Su objetivo es transformar una exportación común de WhatsApp —junto con la i
 
 ## ¿Qué hace PreservarChat?
 
-PreservarChat recibe los archivos obtenidos mediante la función nativa **“Exportar chat” de WhatsApp** y crea una copia de trabajo dentro de un expediente organizado, evitando utilizar los archivos recibidos como área habitual de trabajo.
+En PreservarChat se adjuntan los archivos obtenidos mediante la función nativa **“Exportar chat” de WhatsApp** y crea una copia de trabajo dentro de un expediente organizado, evitando utilizar los archivos recibidos como área habitual de trabajo.
 
 Durante el procedimiento permite registrar los datos relevantes del caso, identificar el dispositivo utilizado, documentar la cuenta de WhatsApp de origen e individualizar el contacto o grupo cuya conversación fue exportada.
 
