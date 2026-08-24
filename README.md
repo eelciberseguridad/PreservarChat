@@ -1,4 +1,4 @@
-# PreservarChat 2.5 FINAL
+# PreservarChat 2.5.0
 ![PreservarChat 2.5.0](preservarchat-banner.png)
 
 # PreservarChat 2.5 FINAL
