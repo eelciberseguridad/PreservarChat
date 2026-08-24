@@ -1,13 +1,13 @@
 # PreservarChat 2.5 FINAL
 ![PreservarChat 2.5.0](preservarchat-banner.png)
 
-Aplicación de escritorio para Windows destinada a la preservación documental de chats exportados de WhatsApp y material digital complementario.
+## Descargar PreservarChat
 
-**Creado por EEL CIBERSEGURIDAD – Eduardo Lecce**
+[![Windows x64](https://img.shields.io/badge/Descargar-Windows%20x64-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/eelciberseguridad/PreservarChat/releases/download/v2.5.0/PreservarChat_SOLO_x64.exe)
 
-## Variante SOLO
+[![Windows x86](https://img.shields.io/badge/Descargar-Windows%20x86-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/eelciberseguridad/PreservarChat/releases/download/v2.5.0/PreservarChat_SOLO_x86.exe)
 
-Trabaja con una conversación exportada por expediente y mantiene un flujo simple.
+Trabaja con una conversación exportada de Whatsapp por expediente y mantiene un flujo simple.
 
 ## Funciones reales
 
