@@ -1,0 +1,34 @@
+PRESERVARCHAT SOLO 2.5 — REVISIÓN FINAL DE SEGURIDAD Y FUNCIONALIDAD
+
+Pruebas realizadas sobre el código fuente entregado:
+- Compilación sintáctica de Python: OK.
+- Creación de expediente con chat exportado: OK.
+- Separación de original preservado y copia de trabajo: OK.
+- Verificación SHA-256 del expediente: INTEGRIDAD VERIFICADA.
+- Incorporación de material complementario/documental: OK.
+- Control de duplicados de material complementario por SHA-256: BLOQUEADO correctamente.
+- Generación de entrega: OK.
+- Acta Final externa al ZIP oficial: OK.
+- Contenido del ZIP oficial con material complementario: 01 CHAT EXPORTADO.zip + 02 REGISTRO VISUAL.zip.
+- Alteración deliberada de un archivo preservado: DETECTADA.
+- Alteración deliberada de BITACORA.json: DETECTADA.
+- ZIP con ../: BLOQUEADO.
+- ZIP con ruta absoluta /...: BLOQUEADO.
+- ZIP con ruta de unidad C:/...: BLOQUEADO.
+- Protección adicional de rutas destructivas: las eliminaciones internas deben permanecer dentro del expediente.
+
+CONTROLES PRESENTES
+- SHA-256 y SHA-512.
+- SHA-256 del manifiesto.
+- Bitácora encadenada mediante hashes.
+- Verificación de integridad antes de consulta/entrega.
+- Extracción controlada de ZIP desde copia de trabajo.
+- Límites de cantidad, tamaño y relación de compresión de ZIP.
+- Rechazo de rutas relativas peligrosas, absolutas y enlaces simbólicos en ZIP.
+- Material complementario con hash y control de duplicados.
+- Eliminación de expedientes limitada al directorio administrado por PreservarChat y con confirmación.
+
+LÍMITES
+PreservarChat no crea almacenamiento WORM, no impide que un administrador con control total del sistema operativo altere el almacenamiento local y no sustituye una adquisición forense física/lógica realizada con herramientas forenses especializadas. Los atributos de solo lectura reducen principalmente modificaciones accidentales.
+
+No se validó en este entorno el ejecutable final compilado sobre Windows x86/x64, Explorer, impresión física ni drivers específicos del sistema. Esa prueba debe realizarse sobre Windows real después de compilar.
