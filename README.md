@@ -1,5 +1,5 @@
 # PreservarChat 2.5 FINAL
-(preservarchat-banner.png)
+preservarchat-banner.png
 
 Aplicación de escritorio para Windows destinada a la preservación documental de chats exportados de WhatsApp y material digital complementario.
 
